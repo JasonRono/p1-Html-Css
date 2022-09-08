@@ -7,6 +7,8 @@ html {
   font-size: 62.5%;
 }
 body {
+  position: relative;
+  height: 100vh;
   font-family: "Goldman", cursive;
   background-color: black;
   
@@ -45,22 +47,29 @@ h1 ,h2, p{
   color: white;
 }
 
-h1{
-  font-size: 50px;
+h1,h2{
   text-align: center;
+  margin: 50px 0 50px 0;
+  font-size: 50px;
 }
 
-h2{
-  font-size: 40px;
-  text-align: center;
-  margin: 20px 0 20px 0;
+section > img{
+  width: 300px;
+}
+
+section > p{
+  float: right;
+  margin-top: 20px;
+  font-size: 15px;
 }
 
 footer{
+  position: sticky;
   background-color: #00a8c7;
   color: white;
   padding: 20px 0 0 0;
   font-size: 25px;
   min-height: 10vh;
   text-align: center;
+  margin-top: 120px;
 }
