@@ -21,11 +21,34 @@ p {
     color: #4D4D4D;
 }
 
+header {
+    width: 1200px;
+    height: 800px;
+    background-image: url("img/diofield.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 header p {
     font-weight: 700;
+    color: aqua;
+}
+
+header h1 {
+    color: red;
 }
 
 a {
     color: #8A2BE2;
     text-decoration: none;
+}
+
+main img {
+    width: 50vh;
+    height: 50vw;
+}
+
+article {
+    border: solid #0000ff 5px;
+    border-left-width: 20px;
 }
