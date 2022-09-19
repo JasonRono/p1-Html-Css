@@ -3,15 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   position: relative;
   height: 100vh;
   font-family: "Goldman", cursive;
   background-color: black;
-  
+
 }
 
 nav {
@@ -26,64 +28,63 @@ nav {
   justify-content: space-between;
   position: fixed;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
 }
 
-main img{
+main img {
   width: 300px;
 }
 
-h1,h2,p{
+p {
   color: white;
 }
 
-h1{
+h1 {
   font-size: 80px;
   text-align: center;
   margin-bottom: 50px;
 }
 
-h2{
+h2 {
   font-size: 40px;
   text-align: center;
 }
 
-section{
+section {
   margin-bottom: 150px;
 }
 
-.Grotetekst{
+.Grotetekst {
   font-size: 80px;
   text-align: center;
 }
 
-.kleineTekst{
+.kleineTekst {
   font-size: 20px;
 }
 
-.left{
+.left {
   float: left;
 }
 
-.right{
+.right {
   float: right;
 }
-
-
-
-
-
