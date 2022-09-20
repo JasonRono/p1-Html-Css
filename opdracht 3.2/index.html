@@ -8,60 +8,66 @@
 </head>
 <body>
     <form>
-        <label for="fname">Voornaam:</label><br>
-            <input id="voornaam" type="text" value="Alan"><br><br>
-        <label for="lname">Achternaam:</label><br>
-            <input id="achternaam" type="text" value="Dover"><br><br>
+        <div>
+            <label for="fname">Voornaam:</label>
+                <input id="voornaam" type="text" value="Alan" onkeydown="return /[a-z]/i.test(event.key)">
+            </div>
+        <div>
+            <label for="lname">Achternaam:</label>
+                <input id="achternaam" type="text" value="Dover" onkeydown="return /[a-z]/i.test(event.key)">
+            </div>
+        <div>
+            <label for="genre">Geslacht:</label>
+                <input id="genre" type="radio">
+                    <label>Man</label>
+            </div>
+        <div>
+            <label for="adress">Straat met huisnummer:</label>
+                <input id="adress" type="text" value="Sesamstraat 20">
+            </div>
+        <div><label for="postmail">Postcode:</label>
+                <input id="post" type="text" value="5314ZR">
+            </div>
+        <div>
+            <label for="city">Stad</label>
+                <input id="city" type="text" value="Rotterdam">
+            </div>
+            <label for="country">Land</label>
+                <input id="country" type="text" value="Nederland">
 
-        <label for="genre">Geslacht:</label><br>
-            <input id="genre" type="radio">
-                <label>Man</label><br><br>
+            <label for="ctn">BSN-Nummer</label>
+                <input id="ctn" type="text" value="12345689" maxlength="9">
 
-        <label for="adress">Straat met huisnummer:</label><br>
-            <input id="adress" type="text" value="Sesamstraat 20"><br><br>
+            <label for="location">Vakantie bestemming</label>
+                <input type="radio">
+                    <label>Suriname</label>
+                <input type="radio">
+                    <label>Amerika</label>
+                <input type="radio">
+                    <label>Spanje</label>
 
-        <label for="postmail">Postcode:</label><br>
-            <input id="post" type="text" value="5314ZR"><br>
+            <label for="leaving">Vertrek datum:</label>
+                <input id="leave" type="date">
 
-        <label for="city">Stad</label><br>
-            <input id="city" type="text" value="Rotterdam"><br><br>
+            <label for="arrival">Terugkomst datum:</label>
+                <input id="arrival" type="date">
 
-        <label for="country">Land</label><br>
-            <input id="country" type="text" value="Nederland"><br><br>
+            <label for="number">Aantal reisgenoten</label>
+                <input type="radio">
+                    <label>2 personen</label>
+                <input type="radio">
+                    <label>3 personen</label>
+                <input type="radio">
+                    <label>4 personen</label>
 
-        <label for="ctn">BSN-Nummer</label><br>
-            <input id="ctn" type="text" value="12345689" maxlength="10"><br><br>
+            <input id="booking" type="button" value="Boek nu">
+            <label>E-mail:</label>
+                <input type="email" value="Alan@hotmail.com">
 
-        <label for="location">Vakantie bestemming</label><br>
-            <input type="radio">
-                <label>Suriname</label><br>
-            <input type="radio">
-                <label>Amerika</label><br>
-            <input type="radio">
-                <label>Spanje</label><br><br>
+            <label for="password">Wachtwoord aanmaken:</label>
+                <input type="password" value="Hello123">
 
-        <label for="leaving">Vertrek datum:</label><br>
-            <input id="leave" type="date"><br><br>
-
-        <label for="arrival">Terugkomst datum:</label><br>
-            <input id="arrival" type="date"><br><br>
-
-        <label for="number">Aantal reisgenoten</label><br>
-            <input type="radio">
-                <label>2 personen</label><br>
-            <input type="radio">
-                <label>3 personen</label><br>
-            <input type="radio">
-                <label>4 personen</label><br><br>
-
-        <input id="booking" type="button" value="Boek nu"><br><br>
-        <label>E-mail:</label><br>
-            <input type="email" value="Alan@hotmail.com"><br><br>
-
-        <label for="password">Wachtwoord aanmaken:</label><br>
-            <input type="password" value="Hello123"><br><br>
-
-        <footer>Gemaakt door Jason Ronoastro</footer>
+            <footer>Gemaakt door Jason Ronoastro</footer>
         
             
 
