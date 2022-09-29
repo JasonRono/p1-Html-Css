@@ -48,6 +48,40 @@ nav img {
   width: 5vw;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 10vw;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover a {
+  color: #00a8c7;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: white;
+  padding: 2rem;
+}
+
+.dropdown-content a:hover {
+  background-color: #E9E9E9;
+  transition: 0.5s;
+}
+
 main h1 {
   color: white;
   text-align: center;
