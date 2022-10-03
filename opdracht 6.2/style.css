@@ -1,0 +1,27 @@
+main {
+    min-width: 100vw;
+}
+
+.blok1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.blok2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.blok3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.blok4 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
