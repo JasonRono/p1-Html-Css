@@ -1,5 +1,11 @@
 main {
+    display: flex;
     min-width: 100vw;
+}
+
+main {
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
 .blok1 {
