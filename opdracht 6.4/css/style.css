@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-family: "Goldman", cursive;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+  position: fixed;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav img {
+  width: 5vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 10vw;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover a {
+  color: #00a8c7;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #E9E9E9;
+  transition: 0.5s;
+}
+
+main h1 {
+  color: white;
+  text-align: center;
+  font-size: 7rem;
+  margin-bottom: 10rem;
+}
+
+main h2 {
+  margin-bottom: 10rem;
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.achtergrond {
+  width: 100vw;
+}
+
+main img {
+  width: 35rem;
+}
+
+section div {
+  display: inline-block;
+}
+
+section {
+  height: 100vh;
+}
+
+.ImgRight {
+  float: right;
+}
+
+.ImgLeft {
+  float: left;
+}
+
+main p {
+  font-size: 1.7rem;
+  color: white;
+  width: 40vw;
+}
+
+.TextRight {
+  float: right;
+}
+
+.TextRight1 {
+  margin-top: 10rem;
+  margin-left: 50rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #00a8c7;
+  width: 100vw;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  font-size: 2rem;
+}
